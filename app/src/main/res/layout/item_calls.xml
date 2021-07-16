@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="10">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/txt_name_calls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thai Xuan Hien"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_phone_number_calls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0971359939"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_duration_calls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:39"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </TextView>
+            <Space
+
+                android:layout_width="20dp"
+                android:layout_height="match_parent">
+
+            </Space>
+            <TextView
+                android:id="@+id/txt_date_calls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30/06/2021"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_call_calls"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_call_24" />
+</LinearLayout>
